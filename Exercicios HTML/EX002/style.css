@@ -1,0 +1,35 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #78A9FF, #1063FF);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(9, 50, 128, 0.733);
+    width: 960px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #0043ce;
+    text-align: center;
+    text-shadow: 1px 1px 2px #002877b7;
+}
+
+h2 {
+    color: #6929c4;
+    text-indent: 30px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
